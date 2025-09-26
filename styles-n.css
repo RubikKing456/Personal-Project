@@ -1,0 +1,149 @@
+header {
+    background-color: black;
+    color: #fc6a03;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5vw;
+    z-index: 999;
+    opacity: 0.85;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+  
+section {
+    height: 5vw;
+    background-color: black;
+}
+
+.sidebar {
+    position: fixed;
+    left: -220px; /* Hidden off screen */
+    top: 5vw;
+    width: 220px;
+    height: 100vh;
+    background-color: #fc6a03;
+    color: black;
+    padding: 20px;
+    transition: left 0.3s ease;
+    z-index: 998;
+}
+
+.sidebar.active {
+    left: 0; /* Slide in */
+}
+
+
+.sidebar a {
+    color: #000000;
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #c96924;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    z-index: 1000;
+    position: relative;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #686868;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+.notation-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.notation-image img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.Title {
+    text-align: center;
+    align-items: center;
+}
+
+.basic {
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.primes {
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.twos {
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.wides {
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.rotations {
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.slice {
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}

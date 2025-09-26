@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Swollen's Rubik Solver</title>
+    <link rel="icon" type="image/jpg" href="img/CubifyLogo.jpg" />
+    <link rel="stylesheet" href="styles-n.css" />
+</head>
+<body>
+<header>
+    <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div> 
+    <h1><b>THE RUBIK CUBE HELPER</b></h1>
+</header>
+<section></section>
+
+<div class="sidebar">
+    <h2>NAVIGATION!!</h2>
+    <a href="index.html">Home</a>
+    <a href="solve cube.html">Solve Cube</a>
+    <a href="notations.html">Cube Notations</a>
+    <a href="testimonies.html">Testimonies</a>
+    <a href="contact us.html">Contact Us</a>
+</div>
+
+<main>
+    <h1 class="Title">Cube Notations</h1>
+
+    <div class="basic">
+        <h2>The basic moves are <b>U</b>p, <b>D</b>own, <b>R</b>ight, <b>L</b>eft, <b>F</b>ront, <b>B</b>ack</h2>
+        <h2>Each move means to turn that side clockwise, as if you were facing that side.</h2>
+        <div class="notation-image">
+            <img src="pics/Basic Notations.png" alt="Cube Notations" />
+        </div>
+    </div>
+
+    <div class="primes">
+        <h2>An apostrophe or an underscore (pronounced as prime)</h2>
+        <h2>means to turn the face in the opposite direction (counterclockwise).</h2>
+        <div class="notation-image">
+            <img src="pics/prime notations.png" alt="Cube Notations" />
+        </div>
+    </div>
+
+    <div class="twos">
+        <h2>The number 2 means to turn that face twice.</h2>
+        <div class="notation-image">
+            <img src="pics/twos.png" alt="Cube Notations" />
+        </div>
+    </div>
+
+    <div class="wides">
+        <h2>Wide moves turn 2 layers at once. They can be written in 2 ways:</h2>
+        <ul>
+            <li>Lower case: <b>u, d, r, l, f, b</b></li>
+            <li>Ending in a W: <b>Uw, Dw, Rw, Lw, Fw, Bw</b></li>
+        </ul>
+        <div class="notation-image">
+            <img src="pics/wides.png" alt="Cube Notations" />
+        </div>
+    </div>
+
+    <div class="rotations">
+        <h2>Cube rotations are written as <b>x, y, z</b>.</h2>
+        <h2><b>x</b> follows the <b>R</b> direction, <b>y</b> follows the <b>U</b> direction, <b>z</b> follows the <b>F</b> direction.</h2>
+        <div class="notation-image">
+            <img src="pics/rotations.png" alt="Cube Notations" />
+        </div>
+        <h2>There is also x' and x2, etc.</h2>
+    </div>
+
+    <div class="slice">
+        <h2>Slice moves are written as <b>M, E, S</b>. Slice moves only turn the middle layer.</h2>
+        <h2><b>M</b> follows the <b>L</b> direction, <b>E</b> follows the <b>D</b> direction, <b>S</b> follows the <b>F</b> direction.</h2>
+        <div class="notation-image">
+            <img src="pics/Screenshot 2025-08-02 004627.png" alt="Cube Notations" />
+        </div>
+    </div>
+</main>
+
+<script src="script-n.js"></script>
+</body>
+</html>
